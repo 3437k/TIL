@@ -8,5 +8,5 @@ String str = "2022.12";
 String[] split = str.split("\\.")
 int year = split[0];
 int month = split[1];
-LocalDate parse = LocalDate.parse(str, DateTimeFormatter.ofPattern("yyyy.MM"));
+// LocalDate parse = LocalDate.parse(str, DateTimeFormatter.ofPattern("yyyy.MM"));
 System.out.println("parse = " + parse);
