@@ -10,3 +10,11 @@ int year = split[0];
 int month = split[1];
 // LocalDate parse = LocalDate.parse(str, DateTimeFormatter.ofPattern("yyyy.MM"));
 System.out.println("parse = " + parse);
+
+
+String str = null;
+// Exception in thread "main" java.lang.NullPointerException
+// Cause str.isEmpty()
+if(str != null || str.isEmpty()){
+  System.out.println("str is null or empty");
+}
